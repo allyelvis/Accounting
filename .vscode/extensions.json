@@ -10,6 +10,24 @@
         "tizentvweb.tizentvwasm",
         "adrianwilczynski.add-reference",
         "doggy8088.netcore-extension-pack",
-        "blairleduc.net-core-starters-pack"
+        "blairleduc.net-core-starters-pack",
+        "amazonwebservices.aws-toolkit-vscode",
+        "aaron-bond.better-comments",
+        "github.vscode-github-actions",
+        "ms-vscode.hexeditor",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.vscode-jupyter-slideshow",
+        "lightrun.lightrunplugin-saas",
+        "tyriar.luna-paint",
+        "micro-focus-amc.mfenterprise",
+        "pkief.material-icon-theme",
+        "micro-focus-amc.mfcobol",
+        "christian-kohler.path-intellisense",
+        "xuangeaha.print-divider",
+        "ms-vscode.remote-server",
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "burkeholland.simple-react-snippets",
+        "vscode-icons-team.vscode-icons",
+        "ms-vscode-remote.remote-wsl"
     ]
 }
