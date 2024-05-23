@@ -12,8 +12,8 @@ LABEL description="Dockerfile for accounting with point of sales with option of 
 # Install necessary dependencies
 RUN apt-get update && apt-get install -y \
     software-properties-common \
-    python3 \
-    python3-pip
+    python3.8.1 \
+    python3.8.1-pip
 
 # Copy application files
 COPY . /app
@@ -25,4 +25,4 @@ WORKDIR /app
 EXPOSE 80
 
 # Define default command
-CMD ["python3", "app.py"]
+CMD ["python3.8.1", "app.py"]
