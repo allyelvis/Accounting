@@ -10,7 +10,6 @@
         "tizentvweb.tizentvwasm",
         "adrianwilczynski.add-reference",
         "doggy8088.netcore-extension-pack",
-        "blairleduc.net-core-starters-pack",
         "amazonwebservices.aws-toolkit-vscode",
         "aaron-bond.better-comments",
         "github.vscode-github-actions",
@@ -28,6 +27,7 @@
         "ms-vscode-remote.vscode-remote-extensionpack",
         "burkeholland.simple-react-snippets",
         "vscode-icons-team.vscode-icons",
-        "ms-vscode-remote.remote-wsl"
+        "ms-vscode-remote.remote-wsl",
+        "amazonwebservices.amazon-q-vscode"
     ]
 }
