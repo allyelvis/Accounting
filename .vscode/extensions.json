@@ -11,7 +11,6 @@
         "adrianwilczynski.add-reference",
         "doggy8088.netcore-extension-pack",
         "amazonwebservices.aws-toolkit-vscode",
-        "aaron-bond.better-comments",
         "github.vscode-github-actions",
         "ms-vscode.hexeditor",
         "ms-toolsai.jupyter-keymap",
@@ -28,6 +27,8 @@
         "burkeholland.simple-react-snippets",
         "vscode-icons-team.vscode-icons",
         "ms-vscode-remote.remote-wsl",
-        "amazonwebservices.amazon-q-vscode"
+        "amazonwebservices.amazon-q-vscode",
+        "asciidoctor.asciidoctor-vscode",
+        "nash.awesome-flutter-snippets"
     ]
 }
