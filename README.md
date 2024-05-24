@@ -1,5 +1,7 @@
 # Restaurant POS Extension
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/875bf909f51a414cb86c30a24056d005)](https://app.codacy.com/gh/allyelvis/Accounting?utm_source=github.com&utm_medium=referral&utm_content=allyelvis/Accounting&utm_campaign=Badge_Grade)
+
 An extension for managing restaurant sales and table management.
 
 ## How to Install
