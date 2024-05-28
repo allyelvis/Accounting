@@ -1,25 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const tablesContainer = document.getElementById('tables-container');
+    const transactions = [
+        { date: '2024-05-28', description: 'Sale #1', amount: '$100', status: 'Completed' },
+        { date: '2024-05-27', description: 'Sale #2', amount: '$150', status: 'Pending' },
+        // More transactions...
+    ];
 
-  // Load saved tables
-  chrome.storage.local.get('tables', (data) => {
-    const tables = data.tables;
-
-    tables.forEach((table) => {
-      const tableItem = document.createElement('div');
-      tableItem.classList.add('table-item');
-
-      const tableNumber = document.createElement('span');
-      tableNumber.textContent = `Table ${table.number}`;
-      tableNumber.classList.add('table-number');
-      tableItem.appendChild(tableNumber);
-
-      const tableStatus = document.createElement('span');
-      tableStatus.textContent = table.status;
-      tableStatus.classList.add('table-status');
-      tableItem.appendChild(tableStatus);
-
-      tablesContainer.appendChild(tableItem);
+    const transactionTable = document.querySelector('#transactions tbody');
+    transactions.forEach(transaction => {
+        const row = document.createElement('tr');
+        Object.values(transaction).forEach(text => {
+            const cell = document.createElement('td');
+            cell.textContent = text;
+            row.appendChild(cell);
+        });
+        transactionTable.appendChild(row);
     });
-  });
 });
