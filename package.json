@@ -2,9 +2,9 @@
   "name": "aenzbi-pos",
   "version": "1.0.0",
   "description": "AENZBi accounting with point of sale software",
-  "main": "popup.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node popup.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
