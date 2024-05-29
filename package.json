@@ -13,7 +13,7 @@
     "POS",
     "AENZBi"
   ],
-  "author": "Your Name",
+  "author": "Ally Elvis Nzeyimana",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
