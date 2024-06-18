@@ -3,13 +3,17 @@
   "name": "Restaurant POS Extension",
   "version": "1.0",
   "description": "An extension for managing restaurant sales and table management.",
-  "icons": {},
+  "icons": {
+    // "16": "icons/icon16.png",
+    // "48": "icons/icon48.png",
+    // "128": "icons/icon128.png"
+  },
   "permissions": ["storage"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
   "browser_action": {
-    "default_popup": "popup.html",
+    "default_popup": "popup.html"
   }
 }
