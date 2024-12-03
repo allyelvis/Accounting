@@ -36,4 +36,4 @@ AENZBi is an integrated accounting and point of sale (POS) software designed to 
     ```bash
     npm install
     ```
-4. **⬤
+4. **⬤# Enhancement log for Accounting on Tue Dec  3 09:00:28 PM UTC 2024
